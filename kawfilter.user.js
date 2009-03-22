@@ -1,3 +1,5 @@
+// $Id: kawfilter.user.js,v 1.2 2009/03/22 18:37:15 jcs Exp $
+
 // ==UserScript==
 // @name           kawfilter
 // @namespace      http://jcs.org/code/
@@ -7,10 +9,7 @@
 // @include        http://f.wayot.org/other/
 // @include        http://f.wayot.org/other/pages/*
 // @author         jcs@jcs.org
-// @version        3.2
 // ==/UserScript==
-
-// $Id: kawfilter.user.js,v 1.1 2009/03/22 18:07:33 jcs Exp $
 
 // both of these searches are case insensitive and may contain regexp wildcards
 // so be sure to escape regexp metachars (such as \*+?|{[()]^$.) with a
