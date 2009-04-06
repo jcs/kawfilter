@@ -1,4 +1,4 @@
-// $Id: kawfilter.user.js,v 1.3 2009/03/22 18:44:08 jcs Exp $
+// $Id: kawfilter.user.js,v 1.4 2009/04/06 19:30:19 jcs Exp $
 //
 // ==UserScript==
 // @name           kawfilter
@@ -92,7 +92,7 @@ for (var i = 0; i < lis.snapshotLength; i++) {
 	}
 
 	if (match) {
-		if (hide_replies)
+		if (hide_replies && a.parentNode)
 			for (var c = 0; c < a.parentNode.childNodes.length; c++)
 				if (a.parentNode.childNodes[c] == a)
 					/* next node should be text, then a <ul> for the reply */
